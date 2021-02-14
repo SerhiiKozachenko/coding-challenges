@@ -6,9 +6,16 @@
 //
 
 #include <iostream>
+#include <vector>
+#include "examples.cpp"
+#include "two_sum.c"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(int argc, const char* argv[]) {
+    
+    // Run tests
+    twoSumEx1();
+    twoSumEx2();
+    twoSumEx3();
+    
     return 0;
 }
